@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bar do Necão</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./styles/helper.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/86404c32c4.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .hero {
+        background: black url(images/hero-img.jpg) center/ cover;
+        justify-content: inherit;
+      }
+    </style>
+    <!-- <link rel="stylesheet" href="styles/debug.css" /> -->
+  </head>
+  <body>
+    <section class="hero is-fullheight">
+      <!-- NavBar Header -->
+      <nav class="navbar is-black">
+        <!-- Logo -->
+        <div class="navbar-brand">
+          <a href="index.html">
+            <figure class="image is-128x128">
+              <img src="images/logo2.png" />
+            </figure>
+          </a>
+          <span class="title center has-text-weight-bold has-text-white"
+            >Bar do NeCão</span
+          >
+          <!-- Burgar-Nav -->
+          <a class="navbar-burger mt-6" id="burger">
+            <span class="hg-burger"> </span>
+            <span class="hg-burger"> </span>
+            <span class="hg-burger"> </span>
+          </a>
+        </div>
+        <!-- Menu -->
+        <div class="navbar-menu" id="nav-links">
+          <div class="navbar-end">
+            <a href="cardapio.html" class="navbar-item subtitle is-white"
+              >Cardápio
+              <i class="fas fa-hamburger ml-2"></i>
+            </a>
+            <a href="fotos.html" class="navbar-item subtitle"
+              >Fotos
+              <i class="fas fa-camera ml-2"></i>
+            </a>
+            <a href="localizacao.html" class="navbar-item subtitle mb-5"
+              >Localização
+              <i class="fas fa-map-pin ml-2"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-main">
+        <figure class="center-column">
+          <img src="images/beer.png" class="main-img" />
+          <span class="title">De quarta à sexta das 17 às 22:30</span>
+          <span class="title">Sábado das 12:00 às 22:30</span>
+          <span class="title">(11) 4558-4306</span>
+          <div class="whatsapp">
+            <a
+              class="whatsapp-link"
+              href="https://web.whatsapp.com/send?phone=5599111112222"
+              target="_blank"
+            >
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
+        </figure>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
+<!--
+Fotos
+Cardapio
+Localização
+Contato -->

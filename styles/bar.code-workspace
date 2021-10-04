@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Bar do Necão",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bar do Necão"
+	}
+}
